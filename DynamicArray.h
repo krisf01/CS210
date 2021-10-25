@@ -11,7 +11,7 @@ class DynamicArray
 public:
     DynamicArray (int = 2); // constructor
     DynamicArray (const DynamicArray<T>&); // copy constructor
-    ~DynamicArray () {delete [ ] value;} // deconstructor
+    ~DynamicArray () {delete [ ] value;} // destructor
     DynamicArray <T> &operator=(const DynamicArray<T>&); // assignment operator
     int capacity () const {return cap;};
     void capacity (int); // setter
