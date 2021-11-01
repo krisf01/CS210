@@ -9,7 +9,7 @@ using namespace std;
 #include<ctime>
 #include<cstdlib>
 
-#define INFILE "dvc-schedule.txt"
+#define INFILE "file.txt"
 #include "DynamicArray.h"
 
 struct Class
